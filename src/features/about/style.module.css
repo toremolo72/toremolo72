@@ -1,7 +1,5 @@
 .container {
-    overflow: hidden;
     background-color: #FFF;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 
@@ -12,15 +10,87 @@
         justify-content: flex-start;
     }
 
-    .title {
-        color: #0CA084;
-        text-align: center;
-        font-family: "Gothic A1";
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 4.8px;
-        vertical-align: middle;
+    .content {
+        display: flex;
+        gap: 12px;
+        margin: auto;
+        
+        @media (max-width: 768px) {
+            flex-direction: column;
+        }
+        
+        .text {
+            display: grid;
+            gap: 12px;
+            padding: 46px;
+            justify-content: flex-start;
+    
+            .name {
+                color: #000;
+                font-family: "Gothic A1";
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 6.4px;
+            }
+    
+            .birth {
+                color: #000;
+                font-family: "Ysabeau Infant";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                letter-spacing: 3.2px;
+            }
+    
+            .section {
+                margin-top: 24px;
+                display: grid;
+                gap: 17px;
+             
+                .title {
+                    color: #0CA084;
+                    font-family: "Gothic A1";
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 3.2px;
+                }
+    
+                .description {
+                    color: #000;
+                    font-family: "Gothic A1";
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 2.4px;
+                }
+            }
+        }
+    
+        .image {
+            display: grid;
+            gap: 12px;
+            padding: 46px;
+            justify-content: flex-start;
+            
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                
+                @media (min-width: 768px) {
+                    width: 300px;
+                }
+                
+                @media (min-width: 1024px) {
+                    width: 400px;
+                }
+            }
+        }
     }
 }
