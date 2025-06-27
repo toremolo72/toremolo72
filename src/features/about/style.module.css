@@ -5,6 +5,13 @@
     display: flex;
     flex-direction: column;
 
+    .links {
+        display: grid;
+        gap: 21px;
+        padding: 46px;
+        justify-content: flex-start;
+    }
+
     .title {
         color: #0CA084;
         text-align: center;

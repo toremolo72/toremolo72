@@ -13,13 +13,15 @@ type LinkMap = {
     "わたしのこと": "/about";
     "つくったもの": "/works";
     "しゃしんとか": "/photos";
+    "魔法をかける": "/";
 };
 
 export const LinkWithArrow: React.FC<LinkProps> = ({ title }) => {
     const linkMap: LinkMap = {
         "わたしのこと": "/about",
         "つくったもの": "/works",
-        "しゃしんとか": "/photos"
+        "しゃしんとか": "/photos",
+        "魔法をかける": "/"
     };
 
     const path = linkMap[title] || "/";
