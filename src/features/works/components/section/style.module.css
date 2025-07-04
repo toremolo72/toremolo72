@@ -1,0 +1,39 @@
+.section {
+    margin-top: 24px;
+    display: grid;
+    gap: 17px;
+}
+
+.title {
+    color: #000;
+    font-family: "Gothic A1";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+.description {
+    color: #000;
+    font-family: "Gothic A1";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.readMore {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    color: #0CA084;
+    font-family: "Gothic A1";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
