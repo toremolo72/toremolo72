@@ -1,6 +1,6 @@
 import { LinkWithArrow } from "@/components/link";
 import style from "./style.module.css";
-import { MdBookmark, MdCameraAlt } from "react-icons/md";
+import { MdBookmark } from "react-icons/md";
 
 export const NotificationContainer = () => {
     return (

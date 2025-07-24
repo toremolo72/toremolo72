@@ -1,5 +1,6 @@
 import { LinkWithArrow } from "@/components/link";
 import style from "./style.module.css";
+import Image from "next/image";
 
 export const AboutContainer = () => {
     return (
@@ -12,7 +13,13 @@ export const AboutContainer = () => {
             </div>
             <div className={style.content}>
                 <div className={style.image}>
-                    <img src="/chinatsu-ozawa-1.jpg" alt="Chinatsu Ozawa" />
+                    <Image
+                        src="/chinatsu-ozawa-1.jpg"
+                        alt="Chinatsu Ozawa"
+                        width={300}
+                        height={400}
+                        priority
+                    />
                     {/* <img src="/chinatsu-ozawa-2.jpg" alt="Chinatsu Ozawa" /> */}
                 </div>
                 <div className={style.text}>
