@@ -21,6 +21,7 @@ export const LinkWithArrow: React.FC<LinkProps> = ({ title }) => {
         "わたしのこと": "/about",
         "つくったもの": "/works",
         "しゃしんとか": "/photos",
+        "イベント情報": "/notification",
         "魔法をかける": "/"
     };
 

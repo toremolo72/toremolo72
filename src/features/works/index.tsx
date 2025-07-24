@@ -9,6 +9,7 @@ export const WorksContainer = () => {
                 <LinkWithArrow title="わたしのこと" />
                 <LinkWithArrow title="つくったもの" />
                 <LinkWithArrow title="しゃしんとか" />
+                <LinkWithArrow title="イベント情報" />
                 <LinkWithArrow title="魔法をかける" />
             </div>
             <div className={style.content}>

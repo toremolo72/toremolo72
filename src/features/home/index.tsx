@@ -8,6 +8,7 @@ export const HomeContainer = () => {
                 <LinkWithArrow title="わたしのこと" />
                 <LinkWithArrow title="つくったもの" />
                 <LinkWithArrow title="しゃしんとか" />
+                <LinkWithArrow title="イベント情報" />
             </div>
             <h1 className={style.title}>魔法をかける！</h1>
         </div>

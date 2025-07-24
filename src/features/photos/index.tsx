@@ -8,6 +8,7 @@ export const PhotosContainer = () => {
                 <LinkWithArrow title="わたしのこと" />
                 <LinkWithArrow title="つくったもの" />
                 <LinkWithArrow title="しゃしんとか" />
+                <LinkWithArrow title="イベント情報" />
                 <LinkWithArrow title="魔法をかける" />
             </div>
             <h1 className={style.title}>魔法をかける！</h1>
