@@ -141,6 +141,7 @@ export const NotificationContainer = () => {
 
                     <div className={style.section}>
                         <p className={style.title}>実施日程</p>
+                        <p className={style.description}>実施場所：筑波大学春日エリア構内（TXつくば駅から徒歩８分）</p>
                         <table className={style.table}>
                             <thead>
                                 <tr>
