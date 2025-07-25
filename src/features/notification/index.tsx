@@ -28,6 +28,17 @@ export const NotificationContainer = () => {
                     </aside>
 
                     <div className={style.section}>
+                        <p className={style.title}>残り人数</p>
+                        <p className={style.description}>
+                            8/17 午前の部：残15名<br />
+                            8/17 午後の部：残15名<br />
+                            8/20 午後の部：残7名<br />
+                            8/23 午前の部：残15名<br />
+                            8/23 午後の部：残15名
+                        </p>
+                    </div>
+
+                    <div className={style.section}>
                         <p className={style.title}>ワークショップの背景・目的</p>
                         <p className={style.description}>
                             近年，スマートフォンやデジタルカメラが普及し，誰もがボタンひとつで簡単に写真を撮れる時代になりました．
