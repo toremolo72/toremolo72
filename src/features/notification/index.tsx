@@ -154,9 +154,8 @@ export const NotificationContainer = () => {
                         <p className={style.title}>実施日程</p>
                         <p className={style.description}>実施場所：筑波大学春日エリア構内（TXつくば駅から徒歩８分）</p>
                         <p className={style.description}>
-                            対象の枠の日程が合わない場合は，他の枠に申し込んでもらっても構いません．<br/>
-                            ※他の枠で参加するか迷う…などの相談も大歓迎です．お気軽にご連絡ください．（連絡先のメールアドレスはページ上部・下部それぞれに記載しています）<br/>
-                            20日は半数以上が18歳以上のため，お子様に人見知りなどがある場合はご注意ください．
+                            【2025/07/28追記】20日も小学生〜高校生まで対象範囲を拡大にしました．<br/>
+                            ※20日は半数以上が18歳以上のため，お子様に人見知りなどがある場合はご注意ください．
                         </p>
                         <table className={style.table}>
                             <thead>
@@ -179,7 +178,7 @@ export const NotificationContainer = () => {
                                 </tr>
                                 <tr>
                                     <td>8/20 午後の部<br />13:00~16:00</td>
-                                    <td>大学生等・大人（18歳以上高校生不可）</td>
+                                    <td>小学生〜大学生等・大人（保護者も一緒に参加可）</td>
                                     <td>12:55</td>
                                 </tr>
                                 <tr>
