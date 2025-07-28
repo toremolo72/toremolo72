@@ -30,7 +30,7 @@ export const NotificationContainer = () => {
                     <div className={style.section}>
                         <p className={style.title}>【リアルタイムで更新中！】各回の受け入れ人数</p>
                         <p className={style.description}>
-                            8/17 午前の部：あと15名<br />
+                            8/17 午前の部：あと13名<br />
                             8/17 午後の部：あと14名<br />
                             8/20 午後の部：あと5名<br />
                             8/23 午前の部：あと15名<br />
