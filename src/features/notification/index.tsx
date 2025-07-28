@@ -153,6 +153,9 @@ export const NotificationContainer = () => {
                     <div className={style.section}>
                         <p className={style.title}>実施日程</p>
                         <p className={style.description}>実施場所：筑波大学春日エリア構内（TXつくば駅から徒歩８分）</p>
+                        <p className={style.description}>
+                            対象の枠の日程が合わない場合は，他の枠に申し込んでもらっても構いません．※20日は半数以上が18歳以上のため，お子様に人見知りなどがある場合はご注意ください．
+                        </p>
                         <table className={style.table}>
                             <thead>
                                 <tr>
