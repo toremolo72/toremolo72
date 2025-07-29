@@ -32,7 +32,7 @@ export const NotificationContainer = () => {
                         <p className={style.description}>
                             8/17 午前の部：あと13名<br />
                             8/17 午後の部：あと14名<br />
-                            8/20 午後の部：あと4名<br />
+                            8/20 午後の部：あと3名<br />
                             8/23 午前の部：あと12名<br />
                             8/23 午後の部：あと15名
                         </p>
