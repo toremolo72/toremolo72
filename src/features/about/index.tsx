@@ -27,6 +27,16 @@ export const AboutContainer = () => {
                     <h1 className={style.name}>小澤 知夏</h1>
                     <p className={style.birth}>2001.07.26(23)</p>
                     <div className={style.section}>
+                        <p className={style.title}>SNS</p>
+                        <div className={style.snsLinks}>
+                            <a href="https://twitter.com/toremolo_72" target="_blank" rel="noopener noreferrer">Twitter</a>
+                            <span>⭐️</span>
+                            <a href="https://www.researchgate.net/profile/Chinatsu-Ozawa" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+                            <span>⭐️</span>
+                            <a href="https://github.com/toremolo72" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </div>
+                    <div className={style.section}>
                         <p className={style.title}>Education</p>
                         <p className={style.description}>2025-now<br />筑波大学大学院<br />人間総合科学学術院人間総合科学研究群情報学学位プログラム<br />博士前期課程<br />Graduate School of Comprehensive Human Sciences<br />University of Tsukuba</p>
                         <p className={style.description}>2022-2025<br />学士（情報メディア科学）<br />筑波大学<br />情報学群情報メディア創成学類<br />School of Informatics, College of Media Arts, Science and Technology<br />University of Tsukuba</p>
