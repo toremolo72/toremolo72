@@ -10,6 +10,77 @@ export interface Event {
 
 export const events: Event[] = [
     {
+        id: "siggraph-asia-2025",
+        title: "SIGGRAPH Asia 2025で招待講演します",
+        date: "2025-12-15",
+        content: (
+            <>
+                <div className={style.section}>
+                    <p className={style.title}>SIGGRAPH Asia 2025 招待講演</p>
+                    <p className={style.description}>
+                        2025年12月15日〜18日に開催されるSIGGRAPH Asia 2025にて招待講演を行います。
+                    </p>
+                </div>
+            </>
+        ),
+    },
+    {
+        id: "wiss-2025",
+        title: "WISS2025で発表があります",
+        date: "2025-12-03",
+        content: (
+            <>
+                <div className={style.section}>
+                    <p className={style.title}>WISS2025 発表</p>
+                    <p className={style.description}>
+                        2025年12月3日〜5日に開催されるWISS2025にて研究発表を行います。
+                    </p>
+                </div>
+            </>
+        ),
+    },
+    {
+        id: "nicograph-2025",
+        title: "NICOGRAPH2025で発表あります",
+        date: "2025-11-30",
+        content: (
+            <>
+                <div className={style.section}>
+                    <p className={style.title}>NICOGRAPH2025 発表</p>
+                    <p className={style.description}>
+                        2025年11月30日〜12月2日に開催されるNICOGRAPH2025にて研究発表を行います。
+                    </p>
+                </div>
+            </>
+        ),
+    },
+    {
+        id: "sendai-daisan-2025",
+        title: "仙台第三高等学校にて研究発表（令和7年度イノベーションフェスタ）",
+        date: "2025-11-06",
+        content: (
+            <>
+                <div className={style.section}>
+                    <p className={style.title}>令和7年度「イノベーションフェスタ」</p>
+                    <p className={style.description}>
+                        2025年11月6日、母校である仙台第三高等学校のイノベーションフェスタ（探求活動中間発表）にOGとして参加し、研究成果を発表します。
+                    </p>
+                    <p className={style.description}>
+                        <strong>発表タイトル:</strong> 「Photographic Conviviality: ボディペイント・ワークショップによる同時的かつ共生的な写真体験」
+                    </p>
+                    <p className={style.description}>
+                        また、この日は「呪術廻戦」の聖地巡礼も兼ねており、楽しみにしています。
+                    </p>
+                    <p className={style.description}>
+                        <a href="https://sensan.myswan.ed.jp/" target="_blank" rel="noopener noreferrer" className={style.link}>
+                            仙台第三高等学校 公式サイトはこちら
+                        </a>
+                    </p>
+                </div>
+            </>
+        ),
+    },
+    {
         id: "workshop-2025-winter",
         title: "次回の写真ワークショップ開催のお知らせ",
         date: "2025-10-14",
