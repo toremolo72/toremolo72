@@ -30,6 +30,11 @@ export const WorksContainer = () => {
                         description="デジタルファブリケーションと生成AIを用いた湿板写真の再現"
                         url="https://digitalnature.slis.tsukuba.ac.jp/2024/11/can-ai-generated-ambrotype-chain-the-aura-of-alternative-process/"
                     />
+                    <Section
+                        title="Photographic Conviviality: A Synchronic and Symbiotic Photographic Experience"
+                        description="祝祭を生むインスタントタトゥーカメラ"
+                        url="https://digitalnature.slis.tsukuba.ac.jp/2025/10/photographic-conviviality/"
+                    />
                 </div>
             </div>
         </div>
