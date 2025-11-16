@@ -35,6 +35,30 @@ export const events: Event[] = [
                     <p className={style.description}>
                         2025年12月3日〜5日に開催されるWISS2025にて研究発表を行います。
                     </p>
+                    <p className={style.description}>
+                        <strong>学会情報</strong>
+                    </p>
+                    <p className={style.description}>
+                        <strong>日時:</strong> 2025年12月03日(水)～12月05日(金)
+                    </p>
+                    <p className={style.description}>
+                        <strong>場所:</strong> 定山渓ビューホテル（北海道）
+                    </p>
+                </div>
+
+                <div className={style.section}>
+                    <p className={style.title}>[2-A09] 超複製技術時代のアウラ：AI生成湿板風写真による一回性の再考</p>
+                    <p className={style.description}>（国際学会招待発表）</p>
+                    <p className={style.description}>小澤 知夏(筑波大学)，皆川 達也(筑波大学)，落合 陽一(筑波大学)</p>
+                    <p className={style.description}><strong>セッション:</strong> デモセッション2</p>
+                    <p className={style.description}><strong>日時:</strong> 2日目 17:20-19:00</p>
+                </div>
+
+                <div className={style.section}>
+                    <p className={style.title}>[3-C06] FlavorLUT: 大規模言語モデルを活用した写真編集手法の提案</p>
+                    <p className={style.description}>小澤 知夏(筑波大学)，皆川 達也(筑波大学)，落合 陽一(筑波大学)</p>
+                    <p className={style.description}><strong>セッション:</strong> デモセッション3</p>
+                    <p className={style.description}><strong>日時:</strong> 3日目 10:15-11:55</p>
                 </div>
             </>
         ),
@@ -50,6 +74,20 @@ export const events: Event[] = [
                     <p className={style.description}>
                         2025年11月30日〜12月2日に開催されるNICOGRAPH2025にて研究発表を行います。
                     </p>
+                    <p className={style.description}>
+                        <a href="https://www.art-science.org/nicograph/nico2025/" target="_blank" rel="noopener noreferrer" className={style.link}>
+                            NICOGRAPH2025 公式サイト
+                        </a>
+                    </p>
+                    <p className={style.description}>
+                        <strong>会場:</strong> 県立広島大学 サテライトキャンパスひろしま
+                    </p>
+                </div>
+
+                <div className={style.section}>
+                    <p className={style.title}>[J-1] Photographic Conviviality: ボディペイント・ワークショップによる同時的かつ共生的な写真体験</p>
+                    <p className={style.description}><strong>著者:</strong> 小澤知夏（筑波大学大学院），皆川達也，落合陽一（筑波大学デジタルネイチャー開発研究センター）</p>
+                    <p className={style.description}><strong>トラック:</strong> ジャーナルトラック</p>
                 </div>
             </>
         ),
